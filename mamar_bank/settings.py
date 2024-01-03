@@ -16,7 +16,7 @@ SECRET_KEY = env("KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bank-management-0o3j.onrender.com']
 
 # Application definition
 
