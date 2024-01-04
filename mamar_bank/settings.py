@@ -17,6 +17,8 @@ SECRET_KEY = env("KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = ['bank-management-0o3j.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://bank-management-0o3j.onrender.com']
+
 
 # Application definition
 
